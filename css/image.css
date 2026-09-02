@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.poster {
+    width: 100%;
+    height: 50rem;
+    background-image: url('../assets/home/annie-spratt-135307-unsplash.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.poster-content {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: min(45rem, 46vw);
+    min-height: clamp(18rem, 35vw, 30rem);
+    background: white;
+    padding: 4rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.poster-issue-heading {
+    position: absolute;
+    font-size: medium;
+    top: -1rem;
+    left: 4rem;
+    background: #354463;
+    color: white;
+    padding-left: 2.0rem;
+    padding-right: 2rem;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+}
+
+.poster-inner-content {
+    color: #354463;
+    width: 80%;
+    font-size: clamp(1rem, 4vw, 3rem);
+    line-height: clamp(1.4rem, 5vw, 4rem);
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+.poster-about-link {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    color: #354463;
+}
+
+.poster-slogan {
+    position: absolute;
+    top: 10rem;
+
+    left: clamp(40rem, 60vw, 70rem);
+
+    width: clamp(12rem, 25vw, 24rem);
+
+    color: white;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: bold;
+    font-family: "flood-std", sans-serif;
+    line-height: 1.1;
+}
+
+.take-action {
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #354463;
+    color: white;
+    padding: 1.25rem 3rem;
+}
+
+.action-items {
+    display: flex;
+    background-color: #C1F7D5;
+    width: 100%;
+    padding: 4rem 5rem;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: nowrap;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+    width: clamp(10rem, 18vw, 18rem);
+    padding-left: 2%;
+    gap: 1rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.action-items-headings {
+    font-size: clamp(1.5rem, 2vw, 2.55rem);
+    color: #354463;
+    font-weight: bold;
+}
+
+.action-items-content {
+    width: 100%;
+    font-size: clamp(0.9rem, 1vw, 1.25rem);
+    line-height: 1.6;
+    text-align: left;
+    color: #354463;
+}
+
+@media (max-width:67.5rem) {
+
+    .poster {
+        height: 50rem;
+        background-image: url('../assets/home/annie-spratt-135307-unsplash@2x.png');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .poster-slogan {
+        top: 8%;
+        left: 10%;
+        font: Flood Std;
+        width: 30%;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        right: unset;
+    }
+
+    .poster-content {
+        top: unset;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        min-height: 10rem;
+        padding: 4rem 1rem 1rem;
+        gap:-3rem;
+    }
+
+    .poster-issue-heading {
+        top: -1.150rem;
+        left: 25%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+    .poster-inner-content {
+        width: 80%;
+        font-size: 2.0rem;
+        padding-top: 5%;
+        line-height: 3.0rem;
+        padding-left: 5%;
+        text-align: left;
+    }
+
+    .poster-about-link {
+
+        width: 100%;
+        padding-bottom: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width:67.5rem) {
+    .take-action {
+        bottom: -1.2rem;
+    }
+
+    .action-items {
+        flex-wrap: wrap;
+    }
+
+    .action-items-headings {
+        font-size: x-large;
+    }
+
+    .action-items-content {
+        font-size: medium;
+        width: 110%;
+    }
+
+    .action-item {
+        width: 40%;
+    }
+}
+
+
+@media (max-width:25.625rem) {
+
+    .poster {
+        margin-top: 5%;
+        height: 40rem;
+        background-image: url('../assets/home/annie-spratt-135307-unsplash@3x.png');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .poster-slogan {
+        top: 5%;
+        left: 12%;
+        width: 30%;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .poster-content {
+        top: unset;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        min-height: 12rem;
+        padding: 2.2rem 1rem 0rem;
+        gap: 1.5rem;
+    }
+
+    .poster-issue-heading {
+        left: 50%;
+
+    }
+
+    .poster-inner-content {
+        width: 100%;
+        padding-top: 8%;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        text-align: center;
+    }
+
+    .poster-about-link {
+        width: 100%;
+
+        text-align: center;
+        padding: 0;
+        padding-top: 4%;
+        padding-bottom: 0;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:25.627rem) {
+    .take-action {
+        padding: 0.75rem 3rem;
+    }
+
+    .action-items {
+        padding: 4rem 2rem;
+        gap: 1rem;
+    }
+
+    .action-item {
+        width: calc(50% - 0.5rem);
+        box-sizing: border-box;
+        font-size: medium;
+        padding-left: 5%;
+    }
+
+    .action-items-headings {
+        font-size: large;
+    }
+
+    .action-items-content {
+        width: 100%;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+}

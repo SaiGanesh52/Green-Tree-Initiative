@@ -1,0 +1,324 @@
+.what-we-do-page {
+    background-color: #354463;
+    width: 100%;
+    min-height: 70rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 7rem;
+    box-sizing: border-box;
+}
+
+.home-part3-heading-and-descriptiom {
+    display: contents;
+}
+
+.home-part3-heading {
+    background-color: white;
+    color: #354463;
+    width: fit-content;
+    padding: 1rem 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-part3-description {
+    color: white;
+    width: 100%;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 5vw;
+}
+
+.home-part3-all-image-containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.home-part3-image-container {
+    background-color: white;
+    width: clamp(12rem, 22vw, 22rem);
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.home-part3-image-container-image {
+    position: relative;
+    width: 100%;
+    height: 14rem;
+}
+
+.home-part3-image-container-image img {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: -1.5rem;
+    right: -6%;
+    object-fit: cover;
+}
+
+.home-part3-image-container-titlecontent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.home-part3-image-container-title {
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    padding: 1.5rem 1.2rem 0.5rem;
+}
+
+.home-part3-image-container-content {
+    color: #354463;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 0 1.2rem;
+}
+
+.home-part3-image-container-readmore-button {
+    display: flex;
+    justify-content: center;
+}
+
+.home-part3-image-container-readmore {
+    background-color: #c1f7d5;
+    color: #354463;
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    margin: 1rem 0 1rem 1.2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 67.5rem) {
+
+    .what-we-do-page {
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        padding: 3rem 8% 5rem;
+        box-sizing: border-box;
+    }
+
+    .home-part3-heading-and-descriptiom {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .home-part3-heading {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    .home-part3-description {
+        width: 100%;
+        padding: 0;
+        font-size: clamp(1.7rem, 3.8vw, 2.4rem);
+        line-height: 1.2;
+    }
+
+    .home-part3-all-image-containers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+
+    .home-part3-image-container {
+        width: 100%;
+        height: 11.5rem;
+        min-height: 11.5rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+
+    .home-part3-image-container-image {
+        width: 100%;
+        height: 9rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .home-part3-image-container-image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -1rem;
+        left: 0;
+        right: auto;
+        object-fit: fill;
+    }
+
+
+    .home-part3-image-container-titlecontent {
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 1.4rem 1rem 0;
+        box-sizing: border-box;
+    }
+
+    .home-part3-image-container-title {
+        width: 100%;
+        padding: 0;
+        color: #354463;
+        font-size: clamp(1rem, 2vw, 1.3rem);
+        line-height: 1.2;
+    }
+
+    .home-part3-image-container-content {
+        width: 100%;
+        padding: 1rem 0 0;
+        color: #354463;
+        font-size: clamp(0.7rem, 1.3vw, 0.85rem);
+        line-height: 1.4;
+    }
+
+
+    .home-part3-image-container-readmore-button {
+        position: absolute;
+        left: 0;
+        bottom: 1rem;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        z-index: 5;
+    }
+
+    .home-part3-image-container-readmore {
+        margin: 0;
+        padding: 0.4rem 1.3rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+    }
+}
+
+
+@media screen and (max-width: 25.625rem) {
+
+
+    .what-we-do-page {
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        padding: 2rem 1rem 3rem;
+        box-sizing: border-box;
+    }
+
+    .home-part3-heading-and-descriptiom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .home-part3-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.75rem 2.5rem;
+        font-size: 0.8rem;
+    }
+
+    .home-part3-description {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .home-part3-all-image-containers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        margin-top: 2.5rem;
+    }
+
+
+    .home-part3-image-container {
+        width: 80%;
+        height: 25rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+
+    .home-part3-image-container-image {
+        width: 100%;
+        height: 11rem;
+        position: relative;
+    }
+
+    .home-part3-image-container-image img {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: -1.5rem;
+        right: 10%;
+        left: auto;
+        object-fit: cover;
+    }
+
+
+    .home-part3-image-container-titlecontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .home-part3-image-container-title {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .home-part3-image-container-content {
+        width: 100%;
+        padding: 1rem 0 0;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+
+    .home-part3-image-container-readmore-button {
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-part3-image-container-readmore {
+        margin: 0 0 1rem;
+        padding: 0.5rem 1.3rem;
+        border-radius: 20px;
+    }
+}

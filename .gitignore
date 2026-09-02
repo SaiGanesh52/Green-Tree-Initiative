@@ -1,0 +1,11 @@
+# Assets (images/videos)
+assets/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.mp4
+*.mp3
+*.ogg

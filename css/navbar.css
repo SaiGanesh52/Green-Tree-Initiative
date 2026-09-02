@@ -1,0 +1,128 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 2.75rem;
+    padding-left: 1rem;
+    background: white;
+}
+
+.project-title {
+    width: 15.625rem;
+    font-size: 1.575rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+    color: #354463;
+    gap: 5rem;
+}
+
+.mobile-navbar {
+    display: contents;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: #354463;
+    font-size: 1.1375rem;
+}
+
+.donate-btn {
+    border: none;
+    background: #C1F7D5;
+    padding: 0.975rem 0.725rem;
+    border-radius: 1.875rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #354463;
+}
+
+@media screen and (max-width: 67.5rem) {
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.625rem;
+        padding: 1.5rem 1.875rem;
+        position: relative;
+    }
+
+    .project-title {
+        width: 12.5rem;
+        padding-left: 8%;
+    }
+
+    .navbar-items {
+        grid-column: 1 / 2;
+        display: flex;
+        gap: 2.2rem;
+        padding-top: 2%;
+        padding-left: 8%;
+    }
+
+    .donate-btn {
+        padding: 0.75rem 1.375rem;
+        position: absolute;
+        top: 3.125rem;
+        right: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 25.625rem) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.25rem;
+        padding: 1.875rem 0.625rem 0.9375rem 0.9375rem;
+        box-sizing: border-box;
+    }
+
+    .mobile-navbar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 8%;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .project-title {
+        font-size: large;
+        padding-left: 5%;
+    }
+
+    .navbar-items {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        gap: 0.3125rem;
+        font-size: smaller;
+        padding-right: 3%;
+
+    }
+
+    .donate-btn {
+        all: unset;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.675rem;
+        background: #C1F7D5;
+        border-radius: 6.25rem;
+        text-align: center;
+        cursor: pointer;
+        color: #354463;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
