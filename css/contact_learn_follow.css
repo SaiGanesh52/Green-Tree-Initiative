@@ -1,0 +1,156 @@
+.footer {
+    background-color: white;
+    width: 100%;
+    padding: 5rem 8%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.footer-logo {
+    color: #354463;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.footer-contact,
+.footer-links,
+.footer-follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.footer-contact h4,
+.footer-links h4,
+.footer-follow h4 {
+    color: #354463;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #354463;
+}
+
+.footer-contact p,
+.footer-links p,
+.footer-follow p {
+    margin: 0;
+    color: #354463;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-slogan {
+    color: #354463;
+    font-size: 3rem;
+    font-family: "flood-std", sans-serif;
+    line-height: 1.2;
+    justify-self: end;
+    text-align: end;
+}
+
+
+@media (max-width:64rem) {
+
+    .footer {
+        padding: 4rem 8%;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "logo contact follow"
+            ". links slogan";
+        gap: 3rem;
+    }
+
+    .footer-logo {
+        grid-area: logo;
+        font-size: 1.8rem;
+    }
+
+    .footer-contact {
+        grid-area: contact;
+    }
+
+    .footer-follow {
+        grid-area: follow;
+    }
+
+    .footer-links {
+        grid-area: links;
+    }
+
+    .footer-slogan {
+        grid-area: slogan;
+        justify-self: start;
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media (max-width:37.5rem) {
+
+    .footer {
+        padding: 3rem 8%;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo contact"
+            "follow links"
+            ". slogan";
+        gap: 2rem;
+    }
+
+    .footer-logo {
+        grid-area: logo;
+        font-size: 1.2rem;
+    }
+
+    .footer-contact {
+        grid-area: contact;
+    }
+
+    .footer-follow {
+        grid-area: follow;
+    }
+
+    .footer-links {
+        grid-area: links;
+    }
+
+    .footer-slogan {
+        grid-area: slogan;
+        font-size: 2rem;
+        text-align: left;
+        justify-self: start;
+    }
+
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-follow h4 {
+        border-bottom: none;
+        padding-bottom: 0;
+        font-size: 0.75rem;
+    }
+
+    .footer-contact p,
+    .footer-links p,
+    .footer-follow p {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+
+}

@@ -1,0 +1,444 @@
+.home-part6-lets-take-action-now {
+    background-color: #354463;
+    height: 120rem;
+}
+
+.home-part6-lets-take-action-now-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+.home-part6-lets-take-action-now-title-box {
+    color: white;
+    font-size: 4.25rem;
+    width: 80%;
+    margin-top: -1%;
+    line-height: 5rem;
+    font-family: "flood-std", sans-serif;
+}
+
+.home-part6-lets-take-action-now-part-one {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    column-gap: 5rem;
+}
+
+.home-part6-lets-take-action-now-part-one-image {
+    background: url('../assets/home/tree-planting.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1.1;
+}
+
+.home-part6-lets-take-action-now-part-one-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-left: 10%;
+    flex: 1;
+}
+
+.home-part6-lets-take-action-now-event-box {
+    font-size: clamp(0.5rem, 10vw, 2rem);
+    color: #354463;
+    background-color: white;
+    display: inline-block;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    width: fit-content;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.home-part6-lets-take-action-now-Earth-day {
+    font-size: clamp(0.5rem, 10vw, 2.75rem);
+    font-weight: bold;
+    width: 70%;
+    line-height: 3rem;
+    color: white;
+}
+
+.home-part6-lets-take-action-now-Earth-day-description {
+    width: 90%;
+    color: white;
+    font-size: clamp(0.5rem, 10vw, 1.25rem);
+    line-height: 2rem;
+    word-spacing: 0.0rem;
+}
+
+.home-part6-lets-take-action-now-read-more-button {
+    background-color: #C1F7D5;
+    color: #354463;
+    width: 25%;
+    font-size:1.25vw;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.home-part6-lets-take-action-now-part-two {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    gap: 3rem;
+}
+
+.home-part6-lets-take-action-now-part-two-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 3.5rem;
+}
+
+.home-part6-lets-take-action-now-latest-news-box {
+    font-size: 2rem;
+    color: #354463;
+    background-color: white;
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: fit-content;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.home-part6-lets-take-action-now-part-two-image {
+    background: url('../assets/home/meeting.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    padding-left: 10%;
+}
+
+.home-part6-lets-take-action-now-meeting {
+    font-size: 2.75vw;
+    font-weight: bold;
+    width: 70%;
+    line-height: 3rem;
+    color: white;
+}
+
+.home-part6-lets-take-action-now-meeting-description {
+    width: 90%;
+    color: white;
+    font-size: 1.25vw;
+    line-height: 2rem;
+    word-spacing: 0.0rem;
+}
+
+.home-part6-lets-take-action-now-read-more {
+    background-color: #C1F7D5;
+    color: #354463;
+    width: 25%;
+    font-size: 1.25vw;
+
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1350px) {
+
+    .home-part6-lets-take-action-now {
+        height: 100rem;
+    }
+
+    .home-part6-lets-take-action-now-container {
+        width: 85%;
+        gap: 4rem;
+    }
+
+    .home-part6-lets-take-action-now-title-box {
+        font-size: 3.5rem;
+        width: 90%;
+        line-height: 4rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one {
+        height: 32rem;
+    }
+
+    .home-part6-lets-take-action-now-part-two {
+        height: 32rem;
+        gap: 2rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one-container {
+        gap: 2rem;
+    }
+
+    .home-part6-lets-take-action-now-part-two-container {
+        gap: 2rem;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day,
+    .home-part6-lets-take-action-now-meeting {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        width: 90%;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day-description,
+    .home-part6-lets-take-action-now-meeting-description {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .home-part6-lets-take-action-now-event-box,
+    .home-part6-lets-take-action-now-latest-news-box {
+        font-size: 1.25rem;
+    }
+
+    .home-part6-lets-take-action-now-read-more-button,
+    .home-part6-lets-take-action-now-read-more {
+        width: fit-content;
+        font-size: 1rem;
+    }
+}
+
+.home-part6-lets-take-action-now-part-one-image,
+.home-part6-lets-take-action-now-part-two-image {
+    position: relative;
+}
+
+
+@media (max-width: 64rem) {
+
+    .home-part6-lets-take-action-now {
+        background-color: #354463;
+        height: 86rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one {
+        height: 32rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one-image {
+        background: url('../assets/home/tree-planting@2x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex: 1.1;
+        height: 18rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one-container {
+        gap: 3rem;
+    }
+
+    .home-part6-lets-take-action-now-title-box {
+        font-size: 2.5rem;
+        width: 80%;
+        line-height: 3rem;
+    }
+
+    .home-part6-lets-take-action-now-event-box {
+        font-size: 1rem;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day {
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 80%;
+        line-height: 2rem;
+        color: white;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day-description {
+        font-size:clamp(0.7rem, 1.085vw, 2rem);
+        line-height: 1.25rem;
+    }
+
+    .home-part6-lets-take-action-now-read-more-button {
+        width: 35%;
+        font-size:clamp(0.5rem,1.5vw,1.7rem);
+        
+    }
+
+    .home-part6-lets-take-action-now-part-two {
+        padding-top: 0;
+        height: 30rem;
+        gap: 1rem;
+    }
+
+    .home-part6-lets-take-action-now-part-two-container {
+        flex: 1.1;
+        gap: 3rem;
+    }
+
+    .home-part6-lets-take-action-now-part-two-image {
+        background: url('../assets/home/meeting@2x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex: 0.9;
+        padding-left: 10%;
+        height: 16rem;
+    }
+
+    .home-part6-lets-take-action-now-latest-news-box {
+        font-size: 1rem;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+
+    .home-part6-lets-take-action-now-meeting {
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 100%;
+        line-height: 2rem;
+        color: white;
+    }
+
+    .home-part6-lets-take-action-now-meeting-description {
+        width: 80%;
+        color: white;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+        word-spacing: 0;
+    }
+
+    .home-part6-lets-take-action-now-read-more {
+        background-color: #C1F7D5;
+        color: #354463;
+        width: 35%;
+        font-size: clamp(0.5rem,1.5vw,1.7rem);
+        font-weight: bold;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border-radius: 2rem;
+        text-align: center;
+    }
+
+    .home-part6-lets-take-action-now-part-one-image,
+    .home-part6-lets-take-action-now-part-two-image {
+        position: relative;
+    }
+}
+
+@media (max-width: 37.5rem) {
+
+    .home-part6-lets-take-action-now {
+        background-color: #354463;
+        height: 120rem;
+    }
+
+    .home-part6-lets-take-action-now-part-one-container,
+    .home-part6-lets-take-action-now-part-two-container {
+        position: static;
+    }
+
+    .home-part6-lets-take-action-now-title-box {
+        text-align: center;
+    }
+
+    .home-part6-lets-take-action-now-container {
+        align-items: center;
+    }
+
+    .home-part6-lets-take-action-now-part-one {
+        display: flex;
+        flex-direction: column;
+        height: 50rem;
+        gap: 2rem;
+        position: relative;
+    }
+
+    .home-part6-lets-take-action-now-part-two {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 50rem;
+        gap: 2rem;
+        position: relative;
+    }
+
+    .home-part6-lets-take-action-now-part-one-image {
+        background: url('../assets/home/tree-planting@3x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50rem;
+        position: relative;
+    }
+
+    .home-part6-lets-take-action-now-part-one-container {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day {
+        width: 100%;
+        font-size: 1.35rem;
+        text-align: center;
+    }
+
+    .home-part6-lets-take-action-now-Earth-day-description {
+        text-align: center;
+    }
+
+    .home-part6-lets-take-action-now-part-two-image {
+        background: url('../assets/home/meeting@3x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 55rem;
+        position: relative;
+    }
+
+    .home-part6-lets-take-action-now-event-box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .home-part6-lets-take-action-now-latest-news-box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .home-part6-lets-take-action-now-part-two-container {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .home-part6-lets-take-action-now-meeting {
+        text-align: center;
+        width: 100%;
+    }
+
+    .home-part6-lets-take-action-now-meeting-description {
+        text-align: center;
+    }
+}
