@@ -157,10 +157,10 @@
 
     .home-part3-image-container-image img {
         position: absolute;
-        width: 100%;
+        width: 80%;
         height: 100%;
         top: -1rem;
-        left: 0;
+        left: 15%;
         right: auto;
         object-fit: fill;
     }

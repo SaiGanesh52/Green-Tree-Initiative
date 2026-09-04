@@ -7,7 +7,7 @@ body {
 
 .home-part4-do-you-know-page {
     background: url('../assets/home/did-you-know-background.png');
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -47,7 +47,7 @@ body {
     padding-top: 10%;
     padding-right: 6rem;
     /*border: 1px solid red;*/
-    
+
 }
 
 .home-part4-do-you-know-page-container1,
@@ -156,6 +156,7 @@ body {
 
 @media (max-width: 67.5rem) {
 
+
     .home-part4-do-you-know-page {
         min-height: 60rem;
         height: auto;
@@ -163,6 +164,8 @@ body {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        background-image: url(../assets/home/did-you-know-background@2x.png);
+        background-size: 100% 100%;
         justify-content: space-between;
         gap: 3rem;
         box-sizing: border-box;
@@ -306,7 +309,7 @@ body {
 
     .home-part4-do-you-know-page {
         background: url('../assets/home/did-you-know-background@3x.png');
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
 
