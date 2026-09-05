@@ -10,6 +10,7 @@
 
 .home-part3-heading-and-descriptiom {
     display: contents;
+   
 }
 
 .home-part3-heading {
@@ -27,6 +28,7 @@
     font-size: 3vw;
     font-weight: bold;
     line-height: 1.2;
+    padding-top: 2%;
     padding-bottom: 5vw;
 }
 
@@ -85,7 +87,7 @@
 
 .home-part3-image-container-readmore-button {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .home-part3-image-container-readmore {

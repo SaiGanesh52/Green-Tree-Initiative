@@ -134,7 +134,7 @@ body {
     }
 
     .poster-slogan {
-        top: 8%;
+        top: 10%;
         left: 10%;
         font: Flood Std;
         width: 30%;
@@ -208,7 +208,7 @@ body {
 }
 
 
-@media (max-width:25.625rem) {
+@media (max-width:29.625rem) {
 
     .poster {
         margin-top: 5%;
@@ -221,7 +221,7 @@ body {
     }
 
     .poster-slogan {
-        top: 5%;
+        top: 10%;
         left: 12%;
         width: 30%;
         font-size: 2rem;

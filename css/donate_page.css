@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    color: #354463;
+}
+
+
+.donation-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-page-title {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 13rem;
+    color: #354463;
+    text-decoration: none;
+}
+
+.donation-page-content {
+    width: 100%;
+    background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.donation-page-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.donation-page-slogan {
+    width: 100%;
+    font-family: "flood-std", sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+    max-width: 25rem;
+}
+
+.donation-page-form {
+    background: #3f4f6b;
+    color: white;
+    width: 100%;
+    max-width: 36rem;
+    padding: 2rem;
+}
+
+.donation-page-form-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.donation-page-form-personal-information,
+.donation-page-form-payment-information,
+.donation-page-form-confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.donation-page-form-row {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.donation-page-form-group {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex: 1;
+}
+
+.donation-page-form-group-zipcode {
+    width: 20%;
+}
+
+.donation-page-form-group-state {
+    width: 20%;
+}
+
+
+.donation-page-form-group-state select {
+    background-color: #3f4f6b;
+}
+
+.donation-page-form-group-expiry {
+    width: 25%;
+}
+
+.donation-page-form-group-security-code {
+    width: 40%;
+}
+
+.donation-page-form-group-full {
+    width: 100%;
+}
+
+label {
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+}
+
+input,
+select {
+    all: unset;
+    border-bottom: 0.12rem solid #c1f7d5;
+    padding: 0.4rem 0;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.3;
+}
+
+.donation-page-form-message {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.donation-page-form-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donation-page-form-process-payment-button {
+    border: none;
+    background: #c1f7d5;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.donation-page-form-go-back {
+    text-decoration: none;
+    color: #c1f7d5;
+    align-self: flex-start;
+}
+
+@media (min-width: 37.5rem) and (max-width: 63.9375rem) {
+
+    .donation-page-title {
+        margin: 1rem 0;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+        max-width: 13rem;
+        color: #354463;
+        text-decoration: none;
+    }
+
+    .donation-page-content {
+        background-image: url("../assets/donation/annie-spratt-427340-unsplash@2x.png");
+        background-size: 100% 100%;
+    }
+
+    .donation-page-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .donation-page-slogan {
+        font-size: 3rem;
+        max-width: 32rem;
+        text-align: center;
+    }
+
+    .donation-page-form {
+        max-width: 32rem;
+    }
+
+    .donation-page-form-confirmation {
+        gap: 3rem;
+    }
+
+    .donation-page-form-actions {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 37.4375rem) {
+
+    .donation-page-title {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        max-width: 10rem;
+        color: #354463;
+        text-decoration: none;
+    }
+
+    .donation-page-content {
+        background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+        background-size: 100% 100%;
+        background-position: center;
+        padding: 2rem 1rem;
+    }
+
+    .donation-page-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .donation-page-slogan {
+        font-size: 2rem;
+        text-align: center;
+        max-width: 22rem;
+    }
+
+    .donation-page-form {
+        max-width: 32rem;
+        padding: 2rem;
+    }
+
+    .donation-page-form-actions {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        position: relative;
+    }
+
+    .donation-page-form-confirmation {
+        gap: 3rem;
+    }
+
+    .donation-page-form-process-payment-button {
+        width: 80%;
+    }
+
+    .donation-page-form-go-back {
+        position: absolute;
+        top: 150%;
+        left: 10%;
+    }
+
+}
